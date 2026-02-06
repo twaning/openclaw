@@ -1,0 +1,11 @@
+{
+  "name": "openclaw-migration-agent",
+  "compatibility_date": "2026-02-06",
+  "main": "./src/index.ts", // This is the 'Brain'
+  "assets": {
+    "directory": "./dist"   // This is the 'Body' (the folder the log was asking for)
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
